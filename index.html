@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+
+		<title>Document</title>
+	</head>
+
+	<body>
+		<div id="comments">
+			<h1>Комментарии <i id="pensil" class="fas fa-pencil-alt"></i></h1>
+			<div class="form">
+				<form>
+					<input
+						id="comment_body"
+						class="ipt"
+						type="text"
+						placeholder="Введите текст комментария"
+					/>
+					<input
+						id="comment_name"
+						class="ipt"
+						type="text"
+						placeholder="Введите ваше имя"
+					/>
+
+					<input id="ipt_date" class="ipt" type="date" />
+					<button type="submit" id="comment_add" class="btn">
+						Добавить комментарий
+					</button>
+				</form>
+			</div>
+
+			<!-- <div class="txt">Не влидное значение</div> -->
+			<div id="output"></div>
+		</div>
+		<script src="./main.js"></script>
+	</body>
+</html>
